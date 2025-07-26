@@ -217,7 +217,7 @@ export default function FormBuilderHeader({
         heading='Create New Document Form Template'
         subheading='Build a new form template for your personal use. You can share the form with anyone via publishable links.'
         classNames={{
-          container: 'items-center'
+          container: 'items-center md:px-4 px-8'
         }}
         rightElement={
           <div className="flex justify-end gap-4 flex-wrap">
