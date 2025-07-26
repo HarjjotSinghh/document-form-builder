@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <footer className={cn(className, "z-50 bg-background border-t border-muted")}>
+    <footer className={cn(className, "z-50 bg-background border-t border-muted md:px-4 px-8")}>
       <div className="mx-auto flex w-full max-w-7xl flex-col items-start justify-between gap-4 md:flex-row">
         <div className="flex w-full flex-col items-start gap-4 md:flex-col">
           <div className="w-full pb-3 pt-8 text-sm text-foreground/90">
