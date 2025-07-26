@@ -220,7 +220,7 @@ export default function FormBuilderHeader({
           container: 'items-center'
         }}
         rightElement={
-          <div className="flex justify-end gap-4">
+          <div className="flex justify-end gap-4 flex-wrap">
             <Button type="button" variant="outline" onClick={showCustomFields}>
               Show Custom Fields
             </Button>

@@ -50,7 +50,7 @@ export const viewport: Viewport = {
 export default async function CreateFormTemplatePage() {
 
   return (
-    <div className="flex flex-col gap-6 w-full h-full font-mono max-w-4xl mx-auto md:py-16 py-8">
+    <div className="flex flex-col gap-6 w-full h-full font-mono max-w-4xl mx-auto md:py-16 py-8 md:px-0 px">
       <FormTemplateBuilder isSuperAdmin={true}/>
     </div>
   );
